@@ -1,0 +1,10 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/anna> a dbo:Person ;
+    rdfs:label "Anna" ;
+    dbo:child <http://example.org/Michael> .
+
+<http://example.org/Michael> a dbo:Person ;
+    rdfs:label "Michael" .
+
